@@ -40,8 +40,11 @@
   display: none;
   text-align: center;
   align-items: center;
-  margin-left: 35%;
-  margin-right: 35%;
+  width: auto;
+  height: auto;
+  font-size: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #ruby {
@@ -50,6 +53,11 @@
   align-items: center;
   margin-left: 35%;
   margin-right: 35%;
+  width: auto;
+  height: auto;
+  font-size: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #java {
@@ -58,6 +66,11 @@
   align-items: center;
   margin-left: 35%;
   margin-right: 35%;
+  width: auto;
+  height: auto;
+  font-size: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #Csharp {
@@ -66,6 +79,11 @@
   margin-left: 35%;
   margin-right: 35%;
   display: none;
+  width: auto;
+  height: auto;
+  font-size: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /* #answer {
