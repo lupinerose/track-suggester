@@ -16,7 +16,7 @@
 
       <div class="col-md-8" class="container">
         <h1 class="jumbotron">Welcome to our computer programming track suggester</h1>
-        <form id="user name input">
+        <form id="userInput">
           <div class="form-group">
             <label for="name">Hi there, what is your name?</label>
             <input id="name" class="form-control" type="text">
@@ -31,21 +31,24 @@
           </div>
           <button type="submit" name="button">submit</button>
         </form>
-        <div id="frontOrBackEnd">
+        <div id="form2">
           <h1>Thank you! Continue along to our track suggester...</h1>
-          <h2>Which do you prefer?</h2>
-          <div class="radio">
-            <label>
-              <input type="radio" name="devType" value="frontEnd" checked>
-              I am interested in how programs and webpages look, I obsess ober layouts, navigation styles, colors and design.
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="devType" value="backEnd">
-              I am interested in the 'behind-the-scenes' functionality of web applications. I'm interested in how databases work, how they manage user connections and power the web application itself.
-            </label>
-          </div>
+          <h2>Please select the option that best describes you.</h2>
+          <form id="frontOrBackEnd" class="info">
+            <div class="radio">
+              <label>
+                <input type="radio" name="devType" value="frontEnd" checked>
+                I am interested in how programs and webpages look, I obsess ober layouts, navigation styles, colors and design.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="devType" value="backEnd">
+                I am interested in the 'behind-the-scenes' functionality of web applications. I'm interested in how databases work, how they manage user connections and power the web application itself.
+              </label>
+            </div>
+            <button type="submit" name="button">submit</button>
+          </form>
         </div>
       </div>
 
