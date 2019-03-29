@@ -25,6 +25,49 @@
   font-weight: 600;
 }
 
+#answerArea2 {
+  display: none;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 600;
+}
+
+#undecidedAnswer {
+  display: none;
+}
+
+#PHP {
+  display: none;
+  text-align: center;
+  align-items: center;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+#ruby {
+  display: none;
+  text-align: center;
+  align-items: center;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+#java {
+  display: none;
+  text-align: center;
+  align-items: center;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+#Csharp {
+  text-align: center;
+  align-items: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  display: none;
+}
+
 /* #answer {
   text-align: center;
   font-size: 100px;

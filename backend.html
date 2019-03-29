@@ -11,50 +11,121 @@
     </head>
     <body class="container">
       <h1 class="jumbotron">We think you'd like BACK END DEVELOPMENT!</h1>
-      <h1>Just a few more questions...</h1>
+      <h1>Now, just a few more questions and we will suggest an Epicodus track that would fit you best.</h1>
       <h2>Please select the option that best describes you...</h2>
       <form id="backendForm" class="info">
         <h3>What attracts you the most?</h3>
-      <div class="radio">
-        <label>
-          <input type="radio" name="backendType" value="PHP" checked>
-          Working at a fast-paced agency that has lots of clients, where you could be maintaining the security and stability of a huge complex of government websites.
-        </label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="backendType" value="PHP" checked>
+            Working at a fast-paced agency that has lots of clients, where you could be maintaining the security and stability of a huge complex of government websites.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="backendType" value="ruby">
+            Building interactive web applications, or working for a Start-Up.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="backendType" value="java">
+            Working for an enterprise-level company. Building Android user interfaces or programming high-performance applications.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="backendType" value="Csharp">
+            Working for a big established business, often building internal software.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="backendType" value="PHP">
+            Building out small sites for brands, businesses, and organizations.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="backendType" value="undecided">
+            I'm still undecided.
+          </label>
+        </div>
+        <button type="submit" name="btn">SUBMIT</button>
+      </form>
+      <div id="answerArea">
+        <p>We suggest <span id="answer"></span></p>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="backendType" value="ruby">
-          Building interactive web applications, or working for a Start-Up.
-        </label>
+      <div class="row">
+        <div class="col-md-3" class="undecidedAnswer" id="PHP">
+          <div class="panel panel-default">
+            <div class="panel-heading">PHP/Drupal</div>
+            <div class="panel-body">
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3" class="undecidedAnswer" id="ruby">
+          <div class="panel panel-default">
+            <div class="panel-heading">Ruby/Rails</div>
+            <div class="panel-body">
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3" class="undecidedAnswer" id="java">
+          <div class="panel panel-default">
+            <div class="panel-heading">Java/Android</div>
+            <div class="panel-body">
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3" class="undecidedAnswer" id="Csharp">
+          <div class="panel panel-default">
+            <div class="panel-heading">C#/.NET</div>
+            <div class="panel-body">
+              <p></p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="backendType" value="java">
-          Working for an enterprise-level company. Building Android user interfaces or programming high-performance applications.
-        </label>
+      <div id="answerArea2">
+        <p>Learn about all of our tracks</p>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="backendType" value="Csharp">
-          Working for a big established business, often building internal software.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="backendType" value="PHP">
-          Building out small sites for brands, businesses, and organizations.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="backendType" value="undecided">
-          I'm still undecided.
-        </label>
-      </div>
-      <button type="submit" name="btn">SUBMIT</button>
-    </form>
-    <div id="answerArea">
-      <p>We suggest <span id="answer"></span></p>
-    </div>
+        <div class="row" id="undecidedAnswer">
+          <div class="col-md-3">
+            <div class="panel panel-default">
+              <div class="panel-heading">PHP/Drupal</div>
+              <div class="panel-body">
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="panel panel-default">
+              <div class="panel-heading">Ruby/Rails</div>
+              <div class="panel-body">
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="panel panel-default">
+              <div class="panel-heading">Java/Android</div>
+              <div class="panel-body">
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="panel panel-default">
+              <div class="panel-heading">C#/.NET</div>
+              <div class="panel-body">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
     </body>
   </html>
