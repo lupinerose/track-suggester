@@ -104,9 +104,15 @@
 }
 
 body {
-  background-image: url("../img/floral.jpg");
-  background-repeat: repeat-y;
-  background-size: cover
+  background-image: url("../img/floral3.jpg");
+  /* background-repeat: repeat-y;
+  background-size: cover */
+}
+
+#specialFont {
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  font-weight: 600;
 }
 
 h1 {
@@ -135,7 +141,24 @@ form {
 #specialFormat {
   margin-left: 20%;
   margin-right: 20%;
-} */
+}
+
+#left {
+  padding: 10px;
+  background-image: linear-gradient(to right, rgba(69,71,142,1), rgba(69,71,142,0));
+}
+
+#right {
+  padding: 10px;
+  background-image: linear-gradient(to right, rgba(69,71,142,0), rgba(69,71,142,1));
+}
+
+#style {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
 /* #answer {
   text-align: center;
   font-size: 100px;
