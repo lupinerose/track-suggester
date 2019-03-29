@@ -17,7 +17,7 @@
 
         <div class="col-md-8" class="container">
           <h1 class="jumbotron">Welcome to the Epicodus computer programming track suggester</h1>
-          <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+          <nav class="navbar navbar-expand-lg" style="background-color: #ccd9e3;" class="navStyle">
             <a class="navbar-brand" href="#"><em><strong>Go to</strong></em></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -32,39 +32,47 @@
               </div>
             </div>
           </nav>
-          <form id="userInput">
-            <div class="form-group">
-              <label for="name">Hi there, what is your name?</label>
-              <input id="name" class="form-control" type="text">
+          <div class="card" id="specialFormat">
+            <div class="card-body">
+              <form id="userInput">
+                <div class="form-group">
+                  <label for="name">Hi there, what is your name?</label>
+                  <input id="name" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="location">Do you live in Portland or Seattle?</label>
+                  <input id="location" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="email">What is your email?</label>
+                  <input id="email" class="form-control" type="text">
+                </div>
+                <button type="submit" name="button">submit</button>
+              </form>
             </div>
-            <div class="form-group">
-              <label for="location">Do you live in Portland or Seattle?</label>
-              <input id="location" class="form-control" type="text">
-            </div>
-            <div class="form-group">
-              <label for="email">What is your email?</label>
-              <input id="email" class="form-control" type="text">
-            </div>
-            <button type="submit" name="button">submit</button>
-          </form>
-          <div id="form2">
-            <h1>Thank you, <span id="nameInsert"></span>! Continue along to our track suggester...</h1>
+          </div>
+          <div id="form3" class="hide">
+            <h1>Thank you, <em><strong><span id="nameInsert"></span></strong></em>! Continue along to our track suggester...</h1>
             <h2>Please select the option that best describes you.</h2>
-            <form id="frontOrBackEnd" class="info">
-              <div class="radio">
-                <label>
-                  <input type="radio" name="devType" value="frontEnd" checked>
-                  I am interested in how programs and webpages look, I obsess over layouts, navigation styles, colors and design.
-                </label>
+            <div class="card" id="specialFormat">
+              <div class="card-body">
+                <form id="frontOrBackEnd" class="info">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="devType" value="frontEnd" checked>
+                       I am interested in how programs and webpages look, I obsess over layouts, navigation styles, colors and design.
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="devType" value="backEnd">
+                       I am interested in the 'behind-the-scenes' functionality of web applications. I'm interested in how databases work, how they manage user connections and power the web application itself.
+                    </label>
+                  </div>
+                  <button type="submit" name="button">submit</button>
+                </form>
               </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="devType" value="backEnd">
-                  I am interested in the 'behind-the-scenes' functionality of web applications. I'm interested in how databases work, how they manage user connections and power the web application itself.
-                </label>
-              </div>
-              <button type="submit" name="button">submit</button>
-            </form>
+            </div>
           </div>
         </div>
 

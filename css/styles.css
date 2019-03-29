@@ -1,9 +1,12 @@
-#nav {
+/* .navStyle {
   margin-bottom: 40px;
   /* background-color: rgb(255, 209, 248, 0.8); */
-}
+} */
 
-#form2 {
+#form3 {
+  display: none;
+}
+.hide {
   display: none;
 }
 
@@ -110,6 +113,7 @@ h1 {
   background-color: rgb(255, 209, 248, 0.9);
   line-height: 50px;
   padding: 20px;
+  margin-top: 20px;
 }
 
 h2 {
@@ -123,8 +127,17 @@ p {
   font-weight: 600;
 }
 
+form {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+#specialFormat {
+  margin-left: 20%;
+  margin-right: 20%;
+} */
 /* #answer {
   text-align: center;
   font-size: 100px;
   font-weight: 600;
-} */
+}
