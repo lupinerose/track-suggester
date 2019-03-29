@@ -20,4 +20,13 @@
 
 #answerArea {
   display: none;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 600;
 }
+
+/* #answer {
+  text-align: center;
+  font-size: 100px;
+  font-weight: 600;
+} */
