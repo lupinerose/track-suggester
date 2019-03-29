@@ -1,5 +1,6 @@
 #nav {
   margin-bottom: 40px;
+  /* background-color: rgb(255, 209, 248, 0.8); */
 }
 
 #form2 {
@@ -91,18 +92,35 @@
 }
 
 .card {
-  margin:5px;
-  background-color: rgb(255, 209, 248, 0.8);
+  margin:20px;
+  background-color: rgb(233, 209, 255, 0.9);
 }
 
 .jumbotron {
-  background-color: rgb(255, 209, 248, 0.8);
+  background-color: rgb(255, 209, 248, 0.9);
 }
 
 body {
   background-image: url("../img/floral.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-repeat: repeat-y;
+  background-size: cover
+}
+
+h1 {
+  background-color: rgb(255, 209, 248, 0.9);
+  line-height: 50px;
+  padding: 20px;
+}
+
+h2 {
+  background-color: rgb(255, 209, 248, 0.9);
+  line-height: 50px;
+  padding: 20px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 /* #answer {
