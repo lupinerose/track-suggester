@@ -1,5 +1,4 @@
 #nav {
-
   margin-bottom: 40px;
 }
 
@@ -89,6 +88,21 @@
   font-size: 40px;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.card {
+  margin:5px;
+  background-color: rgb(255, 209, 248, 0.8);
+}
+
+.jumbotron {
+  background-color: rgb(255, 209, 248, 0.8);
+}
+
+body {
+  background-image: url("../img/floral.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 /* #answer {

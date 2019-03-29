@@ -10,17 +10,17 @@ $(document).ready(function(){
       $("#PHP").show();
     } else if (backendType === "ruby") {
       $("#answer").text("Ruby/Rails");
-      $("#ruby, #java, #Csharp, #undecidedAnswer, #answerArea2").hide();
+      $("#PHP, #java, #Csharp, #undecidedAnswer, #answerArea2").hide();
       $("#ruby").show();
 
     } else if (backendType === "java") {
       $("#answer").text("Java/Android");
-      $("#ruby, #java, #Csharp, #undecidedAnswer, #answerArea2").hide();
+      $("#ruby, #PHP, #Csharp, #undecidedAnswer, #answerArea2").hide();
       $("#java").show();
 
     } else if (backendType === "Csharp") {
       $("#answer").text("C#/.NET");
-      $("#ruby, #java, #Csharp, #undecidedAnswer, #answerArea2").hide();
+      $("#ruby, #java, #PHP, #undecidedAnswer, #answerArea2").hide();
       $("#Csharp").show();
 
     } else if (backendType === "PHP") {
