@@ -1,4 +1,4 @@
-# _Epicodus Track Suggester_
+# _Track Suggester_
 
 #### _A website that helps potential Epicodus students select a best-fitting educational track - March 29, 2019_
 
