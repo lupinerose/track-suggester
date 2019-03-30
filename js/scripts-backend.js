@@ -1,7 +1,5 @@
 $(document).ready(function(){
   $("#backendForm").submit(function(event) {
-    // $("body").find(".col-md-4").addClass("hidden");
-    // $("body").find(".col-md-4").toggleClass("hidden");
     var backendType = $("input:radio[name=backendType]:checked").val();
     $("#answerArea").show();
     if (backendType === "PHP") {
@@ -32,8 +30,6 @@ $(document).ready(function(){
       $("#answerArea2, #undecidedAnswer").show();
       $("#ruby, #java, #Csharp, #PHP, #answerArea").hide();
     }
-
-
     event.preventDefault();
-});
+  });
 });
