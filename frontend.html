@@ -9,118 +9,112 @@
       <meta charset="utf-8">
       <title>Front End Development</title>
     </head>
-    <body class="container">
-      <h1 class="jumbotron">So you think you'd like <em>FRONT END DEVELOPMENT?</em></h1>
-      <nav class="navbar navbar-expand-lg" style="background-color: #ccd9e3;" class="navStyle">
-        <a class="navbar-brand" href="#"><em><strong>Go to</strong></em></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="index.html">Track Selecter <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link active" href="https://www.epicodus.com/">Epicodus <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link active" href="https://www.learnhowtoprogram.com/tracks">Tracks <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link active" href="https://www.epicodus.com/what-to-expect/">What to Expect <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link active" href="backend.html">Quiz: Back-End <span class="sr-only">(current)</span></a>
-          </div>
-        </div>
-      </nav>
-      <h1>Now, just a few more questions and we will suggest an Epicodus track that would fit you best</h1>
-      <h2>Please select the option that best describes you...</h2>
+    <body>
       <div class="row">
-        <div class="col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <p> I am interested in how programs and webpages look, I obsess over layouts, navigation styles, colors and design.</p>
-              <button type="button" name="button" id="btn-css">This is more like me!</button>
+        <div class="col-md-2" id="left">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
+        </div>
+        <div class="col-md-8 container">
+          <h1 class="jumbotron">So you think you'd like <em>FRONT END DEVELOPMENT?</em></h1>
+          <nav class="navbar navbar-expand-lg" style="background-color: #ccd9e3;" class="navStyle">
+            <a class="navbar-brand" href="#"><em><strong>Go to</strong></em></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Track Selecter <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="https://www.epicodus.com/">Epicodus <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="https://www.learnhowtoprogram.com/tracks">Tracks <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="https://www.epicodus.com/what-to-expect/">What to Expect <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="backend.html">Quiz: Back-End <span class="sr-only">(current)</span></a>
+              </div>
+            </div>
+          </nav>
+          <h1>Now, just a few more questions and we will suggest an Epicodus track that would fit you best</h1>
+          <h2>Please select the option that best describes you...</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <p> I am interested in how programs and webpages look, I obsess over layouts, navigation styles, colors and design.</p>
+                  <button type="button" name="button" id="btn-css">This is more like me!</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card" id="CSS">
+                <div class="card-body">
+                  <p>You should consider studying</p>
+                  <h3>CSS</h3>
+                  <p></p>
+                  <p><em>Read more below!</em></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <p> I interested in the start-to-finish process of conceptualizing, planning and builidng a collection of electronic files that determine the layout, colors, text styles, graphics and images of wegpage.</p>
+                  <button type="button" name="button" id="btn-design">This is more like me!</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card" id="design">
+                <div class="card-body">
+                  <p>You should consider studying</p>
+                  <h3>Webpage Design</h3>
+                  <p></p>
+                  <p><em>Read more below!</em></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="CSSinfo">
+            <div class="card">
+              <div class="card-body">
+                <h1>More about CSS...</h1>
+                <p>CSS CSS is the language for describing the presentation of Web pages, including colors, layout, fonts, and other stylistic choices. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, and printers. HTML — used for building the structure of the page — and CSS — used for the visual layout — are the two basic languages involved in the building of web pages and web applications. </p>
+                <p>Currently Epicodus offers <a href="https://www.learnhowtoprogram.com/tracks/front-end-development">a program for CSS/Design</a>.</p>
+                <p>Check out the <a href="https://www.epicodus.com/css">Epicodus webpage on CSS</a> and their course offerings to learn more.</p>
+              </div>
+            </div>
+          </div>  
+          <div id="designInfo">
+            <div class="card">
+              <div class="card-body">
+                <h1>More about Design...</h1>
+                <p>Web design is a process of conceptualizing, planning, and building a collection of electronic files that determine the layout, colors, text styles, structure, graphics, images, and use of interactive features that deliver pages to your site visitors. Web Design is a crucial component in web development, and students who learn design will be able to engineer positive and interactive user experiences through innovative interfaces. </p>
+                <p>Currently Epicodus offers <a href="https://www.learnhowtoprogram.com/tracks/front-end-development">a program for CSS/Design</a>.</p>
+                <p>Check out the <a href="https://www.epicodus.com/design">Epicodus webpage on Design</a> and their course offerings to learn more.</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="card" id="CSS">
-            <div class="card-body">
-              <p>You should consider studying</p>
-              <h3>CSS</h3>
-              <p></p>
-              <p><em>Read more below!</em></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <p> I interested in the start-to-finish process of conceptualizing, planning and builidng a collection of electronic files that determine the layout, colors, text styles, graphics and images of wegpage.</p>
-              <button type="button" name="button" id="btn-design">This is more like me!</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card" id="design">
-            <div class="card-body">
-              <p>You should consider studying</p>
-              <h3>Webpage Design</h3>
-              <p></p>
-              <p><em>Read more below!</em></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="CSSinfo">
-        <div class="card">
-          <div class="card-body">
-          <h1>More about CSS...</h1>
-          <p>CSS CSS is the language for describing the presentation of Web pages, including colors, layout, fonts, and other stylistic choices. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, and printers. HTML — used for building the structure of the page — and CSS — used for the visual layout — are the two basic languages involved in the building of web pages and web applications. </p>
-          <p>Currently Epicodus offers <a href="https://www.learnhowtoprogram.com/tracks/front-end-development">a program for CSS/Design</a>.</p>
-          <p>Check out the <a href="https://www.epicodus.com/css">Epicodus webpage on CSS</a> and their course offerings to learn more.</p>
-        </div>
-      </div>
-      <div id="designInfo">
-        <div class="card">
-          <div class="card-body">
-            <h1>More about Design...</h1>
-            <p>Web design is a process of conceptualizing, planning, and building a collection of electronic files that determine the layout, colors, text styles, structure, graphics, images, and use of interactive features that deliver pages to your site visitors. Web Design is a crucial component in web development, and students who learn design will be able to engineer positive and interactive user experiences through innovative interfaces. </p>
-            <p>Currently Epicodus offers <a href="https://www.learnhowtoprogram.com/tracks/front-end-development">a program for CSS/Design</a>.</p>
-            <p>Check out the <a href="https://www.epicodus.com/design">Epicodus webpage on Design</a> and their course offerings to learn more.</p>
-          </div>
+        <div class="col-md-2" id="right">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
+          <img src="img/sparkle.gif" alt="sparkle gif" id="style">
         </div>
       </div>
     </body>
   </html>
-
-
-
-
-
-  <!-- <div class="well">
-  <div class="radio">
-  <label>
-  <input type="radio" name="frontEndType" value="CSS" checked>
-  I am interested in how programs and webpages look, I obsess ober layouts, navigation styles, colors and design.
-</label>
-</div>
-</div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <div class="well">
-<div class="radio">
-<label>
-<input type="radio" name="frontEndType" value="design">
-I am interested in the 'behind-the-scenes' functionality of web applications. I'm interested in how databases work, how they manage user connections and power the web application itself.
-</label>
-</div>
-</div> -->
