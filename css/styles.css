@@ -72,7 +72,7 @@
 
 #backEndStyle.card {
   background-color: rgb(233, 209, 255, 0.9);
-  width: 1090px;
+  width: 800px;
   text-align: center;
   height: auto;
   margin-bottom: 40px;
@@ -84,7 +84,7 @@
 
 .col-md-3 #backEndStyle2 {
   float: left;
-  width: 1090px;
+  width: 800px;
 }
 
 #backEndStyle2 p {
